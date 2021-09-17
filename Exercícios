@@ -32,8 +32,23 @@ print(f'A medida de {medida}m corresponde a\n{dm}dm\n{cm}cm\n{mm}mm\n{dam}dam\n{
 
 #Exercício 9
 #Faça um programa que leia um número interiro qualquer e monstre na tela s sua tabuada.
+n = int(input('Digite o número para ver sua tabuada: '))
+print('=' * 12)
+print(f'{n} x 1 = {n*1}')
+print(f'{n} x 2 = {n*2}')
+print(f'{n} x 3 = {n*3}')
+print(f'{n} x 4 = {n*4}')
+print(f'{n} x 5 = {n*5}')
+print(f'{n} x 6 = {n*6}')
+print(f'{n} x 7 = {n*7}')
+print(f'{n} x 8 = {n*8}')
+print(f'{n} x 9 = {n*9}')
+print(f'{n} x 10 = {n*10}')
+print('=' * 12)
 
 
 #Exercício 10
 #Crie um programa que leia quento dinheiro uma pessoa tem na carteira e monstre quantos Dólares ela pode comprar.
- #Considere U$$1,00 = R$3,27
+  #Considere U$$1,00 = R$3,27 ==== (17/08/2021***$5,30)
+real = float(input('Quanto dinheiro você tem na carteira? R$'))
+print(f'O valor que você possui R${real} convertido em dolar é ${real / 5.30:.2f}')
